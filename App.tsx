@@ -1,5 +1,6 @@
 import React from 'react';
 import DeviceFrame from './components/DeviceFrame';
+import AdBanner from './components/AdBanner';
 
 const App: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const App: React.FC = () => {
         </h1>
       </header>
       <DeviceFrame />
+      <AdBanner />
     </main>
   );
 };
