@@ -1,0 +1,17 @@
+<svg width="512" height="512" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Live TV Global & Local Logo</title>
+  <desc id="logoDesc">A television with a globe on its screen, representing global and local live TV.</desc>
+  <!-- TV Frame -->
+  <rect x="2" y="5" width="20" height="14" rx="3" stroke="white" stroke-width="1.5"/>
+  <!-- Screen with Globe -->
+  <g>
+    <!-- Globe Circle -->
+    <circle cx="12" cy="12" r="3.5" stroke="#06b6d4" stroke-width="1.2" />
+    <!-- Globe Lines -->
+    <path d="M12 8.5C13.933 8.5 15.5 10.067 15.5 12C15.5 13.933 13.933 15.5 12 15.5" stroke="#06b6d4" stroke-width="1" stroke-linecap="round"/>
+    <path d="M8.5 12H15.5" stroke="#06b6d4" stroke-width="1" stroke-linecap="round"/>
+  </g>
+  <!-- TV Stand -->
+  <line x1="9" y1="19" x2="7" y2="21" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="15" y1="19" x2="17" y2="21" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

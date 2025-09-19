@@ -4,7 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Live TV Global & Local</title>
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/assets/logo.svg" />
+    <meta name="theme-color" content="#000000" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @media (max-height: 500px) and (orientation: landscape) {
+        #main-header {
+          margin-bottom: 0.75rem; /* 12px */
+        }
+        #main-header h1 {
+          font-size: 1.875rem; /* text-3xl */
+          line-height: 2.25rem;
+        }
+        #device-frame-container {
+          height: 85vh;
+          max-height: 450px; /* Cap height to prevent it from being too large */
+        }
+      }
+    </style>
   <script type="importmap">
 {
   "imports": {
